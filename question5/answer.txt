@@ -1,0 +1,14 @@
+if i use binary search, i would have to drop the first egg 50th floor. 
+if it is break at 50th floor, there are potential for 49 drop. If doesnt break
+i would droo the egg from 75th floor.
+
+
+if i use linear search, suppose i drop an egg from floor x. If the eggs breaks,
+then i would have to go throug the previous x-1 floors one by one using a linear search.
+
+like this: x + (x-1) + (x-2) .... + 1
+
+there are 100 flors in the building so,
+
+x(x+1)/2 = 100, we get x = 13.651, rounds to 14. we should start 14th floor.
+worst case scenario is; when the egg break on floor 14.
